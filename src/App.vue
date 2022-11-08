@@ -1,6 +1,6 @@
 <script>
   import AppHeader from './components/AppHeader.vue';
-  import AppHeader from './components/AppContent.vue';
+  import AppContent from './components/AppContent.vue';
 
 
   export default {
