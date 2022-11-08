@@ -80,10 +80,9 @@
 </template>
 
 <style lang="scss" scoped>
+
 header{
-    padding: 1rem;
-    // debug
-    background-color: pink;
+   background-color: pink;
 
     .logo img{
         width: 60px;

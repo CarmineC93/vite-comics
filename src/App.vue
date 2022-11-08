@@ -1,11 +1,15 @@
 <script>
   import AppHeader from './components/AppHeader.vue';
   import AppContent from './components/AppContent.vue';
+  import AppServicesList from './components/AppServicesList.vue';
+
 
 
   export default {
     components: {
       AppHeader,
+      AppContent,
+      AppServicesList
     }
   }
 </script>
@@ -14,6 +18,7 @@
 
   <AppHeader />
   <AppContent />
+  <AppServicesList />
 
 </template>
 

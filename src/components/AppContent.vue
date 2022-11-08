@@ -11,17 +11,25 @@
 </script>
 
 <template>
-    <div class="container">
-        <h2>Content goes here</h2>
-    </div>
+    <section class="content">
+
+        <div class="container">
+            <h3>Content goes here</h3>
+        </div>
+
+    </section>
 </template>
 
 <style lang="scss" scoped>
+
+.content{
+    background-color: black;
+}
+
 .container{
     height: 80px;
-    background-color: black;
 
-    h2 {
+    h3 {
         color: white;
     }
 }
