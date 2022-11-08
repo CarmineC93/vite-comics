@@ -2,6 +2,8 @@
   import AppHeader from './components/AppHeader.vue';
   import AppContent from './components/AppContent.vue';
   import AppServicesList from './components/AppServicesList.vue';
+  import AppFooter from './components/AppFooter.vue';
+
 
 
 
@@ -9,7 +11,8 @@
     components: {
       AppHeader,
       AppContent,
-      AppServicesList
+      AppServicesList,
+      AppFooter
     }
   }
 </script>
@@ -19,6 +22,8 @@
   <AppHeader />
   <AppContent />
   <AppServicesList />
+  <AppFooter />
+
 
 </template>
 

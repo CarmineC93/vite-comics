@@ -5,8 +5,8 @@
             return{
                 links: [
                     {
-                        name: "charaters",
-                        href: "/charaters",
+                        name: "characters",
+                        href: "/characters",
                         active: false,
                     },
                     {
@@ -82,8 +82,6 @@
 <style lang="scss" scoped>
 
 header{
-   background-color: pink;
-
     .logo img{
         width: 60px;
     }
