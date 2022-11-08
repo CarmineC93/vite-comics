@@ -11,7 +11,10 @@
 </script>
 
 <template>  
-<AppHeader/>
+
+  <AppHeader />
+  <AppContent />
+
 </template>
 
 <style lang="scss">

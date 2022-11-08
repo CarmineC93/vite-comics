@@ -69,7 +69,7 @@
                 <img src="../assets/img/dc-logo.png" alt="logo">
             </div>
             <ul class="flex align-center">
-                <li v-for="(link,index) in links"> 
+                <li v-for="(link, index) in links"> 
                     <a :href="link.href">{{link.name}}</a>
                 </li>
             </ul>
