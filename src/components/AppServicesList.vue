@@ -73,6 +73,7 @@
                 }
         
                 h6{
+                    text-transform: uppercase;
                     color: white;
                 }
             }

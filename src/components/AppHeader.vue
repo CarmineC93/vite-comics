@@ -63,18 +63,21 @@
 
 <template>
     <header>
-        <div class="container flex flex-between">
+        <nav class="container flex flex-between">
 
             <div class="logo"> 
-                <img src="../assets/img/dc-logo.png" alt="logo">
+                <a href="">
+                    <img src="../assets/img/dc-logo.png" alt="logo">
+                </a> 
+                
             </div>
             <ul class="flex align-center">
-                <li v-for="(link, index) in links"> 
+                <li v-for="(link, index) in links" :key="index"> 
                     <a :href="link.href">{{link.name}}</a>
                 </li>
             </ul>
 
-        </div>
+        </nav>
     </header>
 
 </template>
@@ -83,16 +86,26 @@
 
 header{
     background-color: white;
-    .logo img{
-        width: 60px;
-    }
+    line-height: 60px;
+    .container{
+        padding: 0 1rem 0 1rem;
+    
+        .logo img{
+            width: 60px;
+            vertical-align: middle;
+            margin: 1rem 0;
 
-    ul{
-        gap: 20px;
+        }
 
-        a{
-            font-size: 0.8rem;
-            font-weight: 600;
+        ul{
+            gap: 20px;
+
+            a{
+                font-size: 0.8rem;
+                font-weight: 600;
+                display: inline-block;
+                line-height: inherit;
+            }
         }
     }
 }

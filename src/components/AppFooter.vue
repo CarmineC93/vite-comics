@@ -71,7 +71,7 @@
 
     <div class="sub-footer">
         <div class="container flex flex-between align-center">
-            <div class="btn">SIGN-UP NOW!</div>
+            <button class="btn">SIGN-UP NOW!</button>
     
             <div class="follow-us flex align-center">
                 <h4>FOLLOW US</h4>
@@ -99,16 +99,20 @@
 
     .container{
         padding: 0;
-
+    
 
         .lists{
             padding: 1rem;
-            flex-grow: 1;
-            gap: 1.5rem;
+            flex-grow: 0.7;
+            gap: 2.5rem;
             color: white;
     
             h5{
                 margin: 0.5rem 0;
+            }
+
+            li{
+                cursor: pointer;
             }
         }
     
@@ -122,11 +126,21 @@
 
 }
 .sub-footer{
-    background-color: gray;
+    background-color: rgb(54, 54, 54);
+
+    .btn{
+        color: white;
+        font-weight: 600;
+        background-color: transparent;
+        padding: 0.8rem;
+        border-color: #0282F9;
+        cursor: pointer;
+    }
     .follow-us{
 
         h4{
             margin-right: 20px;
+            color: #0282F9;
         }
 
         ul{
