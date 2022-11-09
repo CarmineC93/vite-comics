@@ -1,7 +1,6 @@
 <script>
   import AppHeader from './components/AppHeader.vue';
   import AppContent from './components/AppContent.vue';
-  import AppGrid from './components/AppGrid.vue';
   import AppServicesList from './components/AppServicesList.vue';
   import AppFooter from './components/AppFooter.vue';
 
@@ -11,7 +10,6 @@
     components: {
       AppHeader,
       AppContent,
-      AppGrid,
       AppServicesList,
       AppFooter
       
@@ -23,7 +21,6 @@
 
   <AppHeader />
   <AppContent />
-  <AppGrid />
   <AppServicesList />
   <AppFooter />
 

@@ -98,8 +98,11 @@
 
             <div class="row flex">
                 <AppGrid  v-for="(card, index) in cards" :key="index"
-                    :thumb="card.thumb" :series="card.series"
-                />
+                    :thumb="card.thumb" :series="card.series" />
+            </div>
+
+            <div class="load-more flex">
+                <button> <a href="">LOAD MORE</a>  </button>
             </div>
 
         </div>
@@ -121,7 +124,6 @@
 
 
     .container{
-        height: 80px;
         position: relative;
         
         .label-series{
@@ -137,6 +139,21 @@
             flex-wrap: wrap;
             justify-content: space-around;
             gap: 10px;
+            margin-top: 2rem ;
+        }
+
+        .load-more{
+            justify-content: center;
+            align-items: center;
+            
+            button{ 
+                background-color: rgb(36, 124, 218);
+                padding: 0.8rem 2.5rem;
+                text-align: center;
+                color: white;
+                font-weight: 600;
+                cursor: pointer;
+            }
         }
     }
     

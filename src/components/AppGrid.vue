@@ -14,13 +14,14 @@
 <template>
     <div class="card">
         <img :src="thumb" :alt="type">
-        <h5> {{series}} </h5>
+        <h5> <a href="">{{series}}</a>  </h5>
     </div>
 </template>
 
 <style lang="scss" scoped>
     .card{
         width: calc(100% / 6 - 10px);
+        
 
         h5{
             margin: 0.8rem;
