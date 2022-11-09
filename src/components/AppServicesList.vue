@@ -67,7 +67,8 @@
 
 
                 img{
-                    width: 30px;
+                    height: 40px;
+                    max-width: 40px;
                     margin-right: 10px;
                 }
         

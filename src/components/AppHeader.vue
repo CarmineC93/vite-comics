@@ -5,52 +5,52 @@
             return{
                 links: [
                     {
-                        name: "characters",
+                        name: "CHARACTHERS",
                         href: "/characters",
                         active: false,
                     },
                     {
-                        name: "comics",
+                        name: "COMICS",
                         href: "/comics",
                         active: false,
                     },
                     {
-                        name: "movies",
+                        name: "MOVIES",
                         href: "/movies",
                         active: false,
                     },
                     {
-                        name: "tv",
+                        name: "TV",
                         href: "/tv",
                         active: false,
                     },
                     {
-                        name: "games",
+                        name: "GAMES",
                         href: "/games",
                         active: false,
                     },
                     {
-                        name: "collectibles",
+                        name: "COLLECTIBLES",
                         href: "/collectibles",
                         active: false,
                     },
                     {
-                        name: "videos",
+                        name: "VIDEOS",
                         href: "/videos",
                         active: false,
                     },
                     {
-                        name: "fans",
+                        name: "FANS",
                         href: "/fans",
                         active: false,
                     },
                     {
-                        name: "news",
+                        name: "NEWS",
                         href: "/news",
                         active: false,
                     },
                     {
-                        name: "shop",
+                        name: "SHOP",
                         href: "/shop",
                         active: false,
                     },
@@ -82,12 +82,18 @@
 <style lang="scss" scoped>
 
 header{
+    background-color: white;
     .logo img{
         width: 60px;
     }
 
     ul{
         gap: 20px;
+
+        a{
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
     }
 }
 
